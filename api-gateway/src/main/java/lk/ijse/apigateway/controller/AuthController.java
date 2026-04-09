@@ -1,5 +1,4 @@
-package lk.ijse.apigateway.controller;
-
+package lk.ijse.agms;
 import lk.ijse.apigateway.util.JwtUtil;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
