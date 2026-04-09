@@ -17,6 +17,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="crop-inventory-service" />
         <module name="config-server" />
+        <module name="discovery-server" />
       </profile>
     </annotationProcessing>
   </component>
@@ -25,6 +26,7 @@
       <module name="AGMS" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="crop-inventory-service" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
     </option>
   </component>
 </project>
