@@ -16,6 +16,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="crop-inventory-service" />
+        <module name="sensor-telemetry-service" />
         <module name="config-server" />
         <module name="discovery-server" />
       </profile>
@@ -27,6 +28,7 @@
       <module name="config-server" options="-parameters" />
       <module name="crop-inventory-service" options="-parameters" />
       <module name="discovery-server" options="-parameters" />
+      <module name="sensor-telemetry-service" options="-parameters" />
     </option>
   </component>
 </project>
