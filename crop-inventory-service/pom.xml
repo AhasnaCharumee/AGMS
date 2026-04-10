@@ -53,6 +53,13 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
+        <!-- xml -->
+        <!-- Add inside the <dependencies> section of `crop-inventory-service/pom.xml` -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+
 
         <!-- MySQL Database -->
         <dependency>

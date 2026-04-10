@@ -1,8 +1,8 @@
 package lk.ijse.cropinventoryservice.controller;
 
-import lk.ijse.cropinventory.model.Crop;
-import lk.ijse.cropinventory.model.CropStatus;
-import lk.ijse.cropinventory.repository.CropRepository;
+import lk.ijse.cropinventoryservice.model.Crop;
+import lk.ijse.cropinventoryservice.model.CropStatus;
+import lk.ijse.cropinventoryservice.repository.CropRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
