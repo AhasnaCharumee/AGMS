@@ -1,8 +1,8 @@
 package lk.ijse.automationcontrolservice.controller;
 
-import lk.ijse.automationcontrol.dto.SensorData;
-import lk.ijse.automationcontrol.model.ActionLog;
-import lk.ijse.automationcontrol.service.AutomationService;
+import lk.ijse.automationcontrolservice.dto.SensorData;
+import lk.ijse.automationcontrolservice.model.ActionLog;
+import lk.ijse.automationcontrolservice.service.AutomationService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

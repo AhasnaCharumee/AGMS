@@ -1,6 +1,6 @@
 package lk.ijse.automationcontrolservice.client;
 
-import lk.ijse.automationcontrol.dto.ZoneDTO;
+import lk.ijse.automationcontrolservice.dto.ZoneDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

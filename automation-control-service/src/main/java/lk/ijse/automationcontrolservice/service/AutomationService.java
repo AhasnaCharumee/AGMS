@@ -1,10 +1,10 @@
 package lk.ijse.automationcontrolservice.service;
 
-import lk.ijse.automationcontrol.client.ZoneClient;
-import lk.ijse.automationcontrol.dto.SensorData;
-import lk.ijse.automationcontrol.dto.ZoneDTO;
-import lk.ijse.automationcontrol.model.ActionLog;
-import lk.ijse.automationcontrol.repository.ActionLogRepository;
+import lk.ijse.automationcontrolservice.client.ZoneClient;
+import lk.ijse.automationcontrolservice.dto.SensorData;
+import lk.ijse.automationcontrolservice.dto.ZoneDTO;
+import lk.ijse.automationcontrolservice.model.ActionLog;
+import lk.ijse.automationcontrolservice.repository.ActionLogRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
