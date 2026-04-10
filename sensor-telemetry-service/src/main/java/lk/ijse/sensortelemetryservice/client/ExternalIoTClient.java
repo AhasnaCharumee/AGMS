@@ -1,9 +1,9 @@
 package lk.ijse.sensortelemetryservice.client;
 
-import lk.ijse.sensortelemetry.dto.AuthRequest;
-import lk.ijse.sensortelemetry.dto.AuthResponse;
-import lk.ijse.sensortelemetry.dto.Device;
-import lk.ijse.sensortelemetry.dto.TelemetryResponse;
+import lk.ijse.sensortelemetryservice.dto.AuthRequest;
+import lk.ijse.sensortelemetryservice.dto.AuthResponse;
+import lk.ijse.sensortelemetryservice.dto.Device;
+import lk.ijse.sensortelemetryservice.dto.TelemetryResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

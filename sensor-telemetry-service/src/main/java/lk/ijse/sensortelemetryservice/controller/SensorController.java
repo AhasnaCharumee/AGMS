@@ -1,7 +1,7 @@
 package lk.ijse.sensortelemetryservice.controller;
 
-import lk.ijse.sensortelemetry.dto.TelemetryResponse;
-import lk.ijse.sensortelemetry.service.SensorService;
+import lk.ijse.sensortelemetryservice.dto.TelemetryResponse;
+import lk.ijse.sensortelemetryservice.service.SensorService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

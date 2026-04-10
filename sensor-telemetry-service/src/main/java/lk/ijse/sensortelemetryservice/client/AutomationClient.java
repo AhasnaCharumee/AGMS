@@ -1,6 +1,6 @@
 package lk.ijse.sensortelemetryservice.client;
 
-import lk.ijse.sensortelemetry.dto.SensorData;
+import lk.ijse.sensortelemetryservice.dto.SensorData;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

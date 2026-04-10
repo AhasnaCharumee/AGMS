@@ -1,11 +1,11 @@
 package lk.ijse.sensortelemetryservice.service;
 
-import lk.ijse.sensortelemetry.client.AutomationClient;
-import lk.ijse.sensortelemetry.client.ExternalIoTClient;
-import lk.ijse.sensortelemetry.dto.AuthRequest;
-import lk.ijse.sensortelemetry.dto.Device;
-import lk.ijse.sensortelemetry.dto.SensorData;
-import lk.ijse.sensortelemetry.dto.TelemetryResponse;
+import lk.ijse.sensortelemetryservice.client.AutomationClient;
+import lk.ijse.sensortelemetryservice.client.ExternalIoTClient;
+import lk.ijse.sensortelemetryservice.dto.AuthRequest;
+import lk.ijse.sensortelemetryservice.dto.Device;
+import lk.ijse.sensortelemetryservice.dto.SensorData;
+import lk.ijse.sensortelemetryservice.dto.TelemetryResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
