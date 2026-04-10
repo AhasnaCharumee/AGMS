@@ -17,10 +17,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="crop-inventory-service" />
         <module name="sensor-telemetry-service" />
-        <module name="api-gateway" />
         <module name="config-server" />
-        <module name="zone-management-service" />
         <module name="discovery-server" />
+        <module name="automation-control-service" />
+        <module name="api-gateway" />
+        <module name="zone-management-service" />
       </profile>
     </annotationProcessing>
   </component>
@@ -28,6 +29,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AGMS" options="-parameters" />
       <module name="api-gateway" options="-parameters" />
+      <module name="automation-control-service" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="crop-inventory-service" options="-parameters" />
       <module name="discovery-server" options="-parameters" />
