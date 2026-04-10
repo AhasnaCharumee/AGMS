@@ -1,7 +1,7 @@
 package lk.ijse.zonemanagementservice.controller;
 
-import lk.ijse.zonemanagement.model.Zone;
-import lk.ijse.zonemanagement.service.ZoneService;
+import lk.ijse.zonemanagementservice.model.Zone;
+import lk.ijse.zonemanagementservice.service.ZoneService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

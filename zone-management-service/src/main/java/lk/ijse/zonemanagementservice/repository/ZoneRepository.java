@@ -1,6 +1,6 @@
 package lk.ijse.zonemanagementservice.repository;
 
-import lk.ijse.zonemanagement.model.Zone;
+import lk.ijse.zonemanagementservice.model.Zone;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

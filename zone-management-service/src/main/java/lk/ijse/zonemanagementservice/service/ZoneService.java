@@ -1,12 +1,12 @@
 package lk.ijse.zonemanagementservice.service;
 
-import lk.ijse.zonemanagement.client.ExternalIoTClient;
-import lk.ijse.zonemanagement.dto.AuthRequest;
-import lk.ijse.zonemanagement.dto.AuthResponse;
-import lk.ijse.zonemanagement.dto.DeviceRegistrationRequest;
-import lk.ijse.zonemanagement.dto.DeviceRegistrationResponse;
-import lk.ijse.zonemanagement.model.Zone;
-import lk.ijse.zonemanagement.repository.ZoneRepository;
+import lk.ijse.zonemanagementservice.client.ExternalIoTClient;
+import lk.ijse.zonemanagementservice.dto.AuthRequest;
+import lk.ijse.zonemanagementservice.dto.AuthResponse;
+import lk.ijse.zonemanagementservice.dto.DeviceRegistrationRequest;
+import lk.ijse.zonemanagementservice.dto.DeviceRegistrationResponse;
+import lk.ijse.zonemanagementservice.model.Zone;
+import lk.ijse.zonemanagementservice.repository.ZoneRepository;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,9 +1,9 @@
 package lk.ijse.zonemanagementservice.client;
 
-import lk.ijse.zonemanagement.dto.AuthRequest;
-import lk.ijse.zonemanagement.dto.AuthResponse;
-import lk.ijse.zonemanagement.dto.DeviceRegistrationRequest;
-import lk.ijse.zonemanagement.dto.DeviceRegistrationResponse;
+import lk.ijse.zonemanagementservice.dto.AuthRequest;
+import lk.ijse.zonemanagementservice.dto.AuthResponse;
+import lk.ijse.zonemanagementservice.dto.DeviceRegistrationRequest;
+import lk.ijse.zonemanagementservice.dto.DeviceRegistrationResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
